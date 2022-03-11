@@ -41,7 +41,7 @@ export default function Home() {
                 <div class="row g-5">
                   <div class="col-5 offset-4" >
 
-                    { (pokemon)? <Card /> : ""} 
+                    { (pokemon)? <Card bicho={pokemon}/> : ""} 
 
                     </div>
                 </div>
